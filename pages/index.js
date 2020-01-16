@@ -13,7 +13,7 @@ export default () => {
         <Button htmlType="submit">Submit</Button>
       </Form.Item>
     </Form> */}
-    <Select defaultValue="lucy" style={{ width: 120 }}>
+    <Select defaultValue="lucy" style={{ width: 120 }} getPopupContainer={(trigger) => trigger.parentNode}>
       <Option value="jack">Jack</Option>
       <Option value="lucy">Lucy</Option>
       <Option value="disabled" disabled>

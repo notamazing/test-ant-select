@@ -25,7 +25,7 @@ export default () => {
     </Form> */}
     <Row>
 
-    <Select defaultValue="lucy" style={{ width: 120 }} >
+    <Select defaultValue="lucy" style={{ width: 120 }}  getPopupContainer={(e) => e.parentElement}>
       <Option value="jack">Jack</Option>
       <Option value="lucy">Lucy</Option>
       <Option value="disabled" disabled>

@@ -2,6 +2,7 @@
 .idea
 .next
 .vscode
+.history
 build
 coverage
 node_modules

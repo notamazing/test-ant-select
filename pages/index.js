@@ -1,5 +1,4 @@
 import {Form, Input, Button, Select, Row, Popover} from 'antd';
-import "../style.less";
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 
